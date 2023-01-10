@@ -28,7 +28,7 @@ func ParseDependency(ctx context.Context, req *dependencyparse.DependencyParseRe
 
 	app, err := meta.QueryAppInfo(ctx, req.UniqueId)
 	if err != nil {
-		logs.CtxDebug(ctx, "error %+v", err)
+		logs.v2.CtxDebug(ctx, "error %+v", err)
 		return nil, err
 	}
 
