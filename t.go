@@ -1,7 +1,6 @@
 package handler
 
 import (
-	"context"
 	"fmt"
 
 	dependencyparse "infra/dependency_parse/kitex_gen/bytedance/bits/dependency_parse"
